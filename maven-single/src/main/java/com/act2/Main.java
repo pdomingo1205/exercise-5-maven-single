@@ -83,11 +83,11 @@ public class Main{
 
     public static void menu(Table table){
         final String menuMessage = " 1.Search Table \n 2.Edit Table \n 3.Add Row \n 4.Print Table \n 5.Sort Table \n 6.Reset Table \n 7.Exit";
-        final String inputMessage = " Input text to search ";
+        final String inputMessage = " Input text to search";
         final String errorMessage = " Input only numbers from 1-7";
         final String orderMessage = " What order \n 1.Ascending \n 2.Descending";
         int answer = 0;
-
+	
         do{
             console.printLine(menuMessage);
             answer = console.getIntegerInput(7);
